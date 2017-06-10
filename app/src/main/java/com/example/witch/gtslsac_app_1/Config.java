@@ -5,10 +5,10 @@ package com.example.witch.gtslsac_app_1;
  */
 public class Config {
     //URL to our login.php file
-    public static final String adaptador_url = "http://10.0.2.2:8080/Android/gtslsac/adaptador.php";
-    public static final String adaptador_listar_clientes_url = "http://10.0.2.2:8080/Android/gtslsac/adaptadorClientes.php";
-    public static final String adaptador_listar_equipos_url = "http://10.0.2.2:8080/Android/gtslsac/adaptadorEquipos.php";
-    public static final String adaptador_listar_operadores_url = "http://10.0.2.2:8080/Android/gtslsac/adaptadorOperadores.php";
+    public static final String adaptador_url = "http://www.gtslsac.com/AppMovil/php/adaptador.php";
+    public static final String adaptador_listar_clientes_url = "http://www.gtslsac.com/AppMovil/php/adaptadorClientes.php";
+    public static final String adaptador_listar_equipos_url = "http://www.gtslsac.com/AppMovil/php/adaptadorEquipos.php";
+    public static final String adaptador_listar_operadores_url = "http://www.gtslsac.com/AppMovil/php/adaptadorOperadores.php";
 
     //Keys for email and password as defined in our $_POST['key'] in login.php
     public static final String KEY_OPCION = "Opcion";
