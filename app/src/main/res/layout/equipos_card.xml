@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="150dp"
+    android:orientation="vertical"
+    app:cardCornerRadius="4dp"
+    app:cardElevation="4dp"
+    app:cardUseCompatPadding="true">
+
+    <RelativeLayout
+        android:id="@+id/layoutContenedorEquipos"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <TextView
+            android:id="@+id/tvNombreEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="10dp"
+            android:text="EQUIPO"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvMarcaEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="MARCA"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/tvNombreEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvModeloEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="MODELO"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/tvMarcaEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvCapacidadEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="CAPACIDAD"
+            android:paddingLeft="8dp"
+            android:layout_toRightOf="@id/tvModeloEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvAnioEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="AÑO"
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="45dp"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvPlacaEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="PLACA"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/tvAnioEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvColorEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="COLOR"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/tvPlacaEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+        <TextView
+            android:id="@+id/tvCodigoEquipo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentTop="true"
+            android:text="CODIGO"
+            android:paddingLeft="8dp"
+            android:layout_marginTop="45dp"
+            android:layout_toRightOf="@id/tvColorEquipo"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@color/cardview_dark_background" />
+
+    </RelativeLayout>
+
+</android.support.v7.widget.CardView>
